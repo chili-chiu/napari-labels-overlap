@@ -1,0 +1,11 @@
+site_name: napari-labels-overlap
+site_description: create an overlap labels layer from two labels layers
+site_author: Chi-Li Chiu
+
+theme: readthedocs
+
+
+repo_url: https://github.com/chili-chiu/napari-labels-overlap
+
+pages:
+- Home: index.md
