@@ -8,6 +8,24 @@
 [![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-labels-overlap)](https://napari-hub.org/plugins/napari-labels-overlap)
 
 create an overlap labels layer from two labels layers
+----------------------------------
+## Description
+
+This plugin takes two labels layers (layerA, layerB) as input, and generate the overlapped regions as output.
+Three modes:<br>
+(1) new layer = layerA AND layerB (intersection)<br>
+(2) new layer = layerA OR layerB (union)<br>
+(3) new layer = layerA OUTSIDE layerB (complement)<br>
+
+## Applicaions
+- Object colocalization
+- Merge separately identified objects
+
+## Future work
+- Support N labels layers
+- Basic coloc stats (% volume overlap)
+- Output Labels with distinct IDs and links to original label IDs
+<br>
 
 ----------------------------------
 
