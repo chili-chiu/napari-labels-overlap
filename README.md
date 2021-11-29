@@ -8,7 +8,7 @@
 [![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-labels-overlap)](https://napari-hub.org/plugins/napari-labels-overlap)
 
 create an overlap labels layer from two labels layers
-----------------------------------
+
 ## Description
 
 This plugin takes two labels layers (layerA, layerB) as input, and generate the overlapped regions as output.
