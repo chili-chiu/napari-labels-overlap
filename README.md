@@ -16,8 +16,8 @@ Three modes:<br>
 (1) A_OR_B: new layer = layerA OR layerB (union)<br>
 (2) A_AND_B: new layer = layerA AND layerB (intersection)<br>
 (3) A_OUTSIDE_B: new layer = layerA OUTSIDE layerB (complement)<br>
+https://user-images.githubusercontent.com/89602983/144106081-3fb2c3c8-5eea-4c7f-8790-3cd84b4fd265.mp4
 
-https://user-images.githubusercontent.com/89602983/144099157-387ce8c7-68fa-4a23-84b8-3a5660a23173.mov
 
 ## Applicaions
 - Object colocalization
