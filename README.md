@@ -17,6 +17,8 @@ Three modes:<br>
 (2) A_AND_B: new layer = layerA AND layerB (intersection)<br>
 (3) A_OUTSIDE_B: new layer = layerA OUTSIDE layerB (complement)<br>
 
+https://user-images.githubusercontent.com/89602983/144099157-387ce8c7-68fa-4a23-84b8-3a5660a23173.mov
+
 ## Applicaions
 - Object colocalization
 - Merge separately identified objects
