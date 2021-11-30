@@ -17,7 +17,7 @@ Three modes:<br>
 (2) A_AND_B: new layer = layerA AND layerB (intersection)<br>
 (3) A_OUTSIDE_B: new layer = layerA OUTSIDE layerB (complement)<br>
 
-https://user-images.githubusercontent.com/89602983/144106081-3fb2c3c8-5eea-4c7f-8790-3cd84b4fd265.mp4
+![labels_overlap](https://user-images.githubusercontent.com/89602983/144129087-9a88d55f-f1a0-4825-bd01-770909bfc64f.gif)
 
 
 ## Applicaions
