@@ -11,11 +11,11 @@ create an overlap labels layer from two labels layers
 
 ## Description
 
-This plugin takes two labels layers (layerA, layerB) as input, and generate the overlapped regions as output.
+This plugin takes two labels layers (layerA, layerB) as inputs, and generate the overlapped regions as a binary labels layer.
 Three modes:<br>
-(1) new layer = layerA AND layerB (intersection)<br>
-(2) new layer = layerA OR layerB (union)<br>
-(3) new layer = layerA OUTSIDE layerB (complement)<br>
+(1) A_OR_B: new layer = layerA OR layerB (union)<br>
+(2) A_AND_B: new layer = layerA AND layerB (intersection)<br>
+(3) A_OUTSIDE_B: new layer = layerA OUTSIDE layerB (complement)<br>
 
 ## Applicaions
 - Object colocalization
