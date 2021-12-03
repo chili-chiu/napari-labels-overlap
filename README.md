@@ -30,6 +30,7 @@ Three modes:<br>
 - Output Labels with distinct IDs and links to original label IDs
 <br>
 
+
 ----------------------------------
 
 This [napari] plugin was generated with [Cookiecutter] using [@napari]'s [cookiecutter-napari-plugin] template.
