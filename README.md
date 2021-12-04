@@ -19,7 +19,6 @@ Three modes:<br>
 
 ![labels_overlap](https://user-images.githubusercontent.com/89602983/144129087-9a88d55f-f1a0-4825-bd01-770909bfc64f.gif)
 
-
 ## Applicaions
 - Object colocalization
 - Merge separately identified objects
