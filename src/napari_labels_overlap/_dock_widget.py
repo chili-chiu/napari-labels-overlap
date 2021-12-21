@@ -30,6 +30,6 @@ def labels_overlap(layerA: LabelsData, layerB: LabelsData, operation: Operation)
         return operation.value(bin_A, bin_B)
 
 
-@napari_hook_implementation
+#@napari_hook_implementation
 def napari_experimental_provide_function():
     return [labels_overlap]
