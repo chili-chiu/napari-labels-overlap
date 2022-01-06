@@ -19,9 +19,10 @@ def aNOTb(a,b):
     return (a-b > 0).astype(int)
 
 #output_type
-def binary_output(ab):
+def binary(ab):
     return ab
-def connected_output(ab):
+def connected(ab):
+    #TO DO: take care of time series (and other higher dimensions) that should not be connected.
     return label(ab)
 
 # Enums check if the value of the member is a descriptor, and if so, don't add it
@@ -32,8 +33,8 @@ class Operation(Enum):
     A_NOT_B = partial(aNOTb)
 
 class Output(Enum):
-    binary = partial(binary_output)
-    connected_component = partial(connected_output)
+    binary = partial(binary)
+    connected_component = partial(connected)
 
 def labels_overlap(layerA: LabelsData, layerB: LabelsData, operation: Operation, output:Output) -> LabelsData:
     if layerA is not None and layerB is not None:
