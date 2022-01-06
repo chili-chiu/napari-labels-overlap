@@ -7,5 +7,6 @@ contributions:
   - autogenerate: true
     command: napari-labels-overlap.labels_overlap
     display_name: labels overlap
+
 engine: 0.1.0
 name: napari-labels-overlap
