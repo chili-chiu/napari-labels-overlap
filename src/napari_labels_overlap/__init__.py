@@ -1,8 +1,8 @@
 
-__version__ = "0.0.1"
+__version__ = "0.0.3"
 
 
 
 
-from ._dock_widget import napari_experimental_provide_function
+from ._dock_widget import labels_overlap
 

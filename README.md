@@ -17,6 +17,8 @@ Three modes:<br>
 (2) A_AND_B: new layer = layerA AND layerB (intersection)<br>
 (3) A_OUTSIDE_B: new layer = layerA OUTSIDE layerB (complement)<br>
 
+[comment]: <need to update the gif>
+
 ![labels_overlap](https://user-images.githubusercontent.com/89602983/144129087-9a88d55f-f1a0-4825-bd01-770909bfc64f.gif)
 
 ## Applicaions
@@ -27,7 +29,13 @@ Three modes:<br>
 - Support N labels layers
 - Basic coloc stats (% volume overlap)
 - Output Labels with distinct IDs and links to original label IDs
-<br>
+
+## Release log
+- 0.0.2<br>
+-- Run on npe2<br>
+-- Add output types: binary/connected component<br>
+- 0.0.1<br>
+-- Run on npe1<br>
 
 
 ----------------------------------

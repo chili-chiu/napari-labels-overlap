@@ -1,0 +1,12 @@
+name: napari-labels-overlap
+display_name: napari labels overlap
+
+contributions:
+  commands:
+  - id: napari-labels-overlap.labels_overlap
+    python_name: napari_labels_overlap._dock_widget:labels_overlap
+    title: labels_overlap
+  widgets:
+  - autogenerate: true
+    command: napari-labels-overlap.labels_overlap
+    display_name: labels overlap
