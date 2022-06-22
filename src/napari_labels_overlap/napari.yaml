@@ -1,3 +1,6 @@
+name: napari-labels-overlap
+display_name: napari labels overlap
+
 contributions:
   commands:
   - id: napari-labels-overlap.labels_overlap
@@ -7,6 +10,3 @@ contributions:
   - autogenerate: true
     command: napari-labels-overlap.labels_overlap
     display_name: labels overlap
-
-engine: 0.1.0
-name: napari-labels-overlap

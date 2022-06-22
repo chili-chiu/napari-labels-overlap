@@ -40,5 +40,5 @@ def labels_overlap(layerA: LabelsData, layerB: LabelsData, operation: Operation,
         return newLabel
 
 #def napari_experimental_provide_dock_widget():
-def napari_experimental_provide_function():
-    return [labels_overlap]
+#def napari_experimental_provide_function():
+#    return [labels_overlap]
